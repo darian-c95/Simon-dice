@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+}
+h1 ,h2 {
+    font-family: 'Black Ops One', cursive;
+    text-align: center;
+    color: white;
+}
+
+#mensaje-turno {
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 35%;
+    height: 70vh;
+    background-color: #222;
+    border: medium solid #000;
+    /* margin-top: 100px; */
+  }
+
+  .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 5px;
+  }
+
+  .item1 {
+    background-color: green;
+    opacity: 0.5;
+    transition: opacity 500ms;
+}
+
+  .item-1 {
+      background-color: green;
+      opacity: 1;
+      transition: opacity 500ms;
+  }
+
+  .item2 {
+    background-color: red;
+    opacity: 0.5;
+    transition: opacity 500ms;
+}
+
+  .item-2 {
+    background-color: red;
+    opacity: 1;
+    transition: opacity 500ms;
+}
+
+.item3 {
+    background-color: yellow;
+    opacity: 0.5;
+    transition: opacity 500ms;
+}
+
+.item-3 {
+    background-color: yellow;
+    opacity: 1;
+    transition: opacity 500ms;
+}
+
+.item4 {
+    background-color: blue;
+    opacity: 0.5;
+    transition: opacity 500ms;
+}
+
+.item-4 {
+    background-color: blue;
+    opacity: 1;
+    transition: opacity 500ms;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-comenzar {
+    align-self: center;
+    padding: 8px;
+}
+
+.ocultar {
+    display: none;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
