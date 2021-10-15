@@ -1,10 +1,19 @@
 body {
     background-color: black;
 }
+
 h1 ,h2 {
-    font-family: 'Black Ops One', cursive;
-    text-align: center;
     color: white;
+    font-family: 'Black Ops One', cursive;
+    font-size: 37px; 
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 27px;
+    text-align: center;
 }
 
 #mensaje-turno {
@@ -90,8 +99,4 @@ h1 ,h2 {
     display: none;
 }
 
-p {
-    color: white;
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-}
+
