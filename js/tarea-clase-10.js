@@ -1,5 +1,3 @@
-//Cuando la longitud de ambos array sea igual, bloquear input del usario. Cuando es el turno de la maquina tambien bloquearlo
-
 let numeroAlAzar = 0;
 let arrayUsuario = [];
 let arrayMaquina = []
@@ -115,8 +113,8 @@ function sumarRonda() {
 function turnoMaquina() {
 let timerId = setTimeout(function maquina() {
     
-    pulsarBoton(arrayMaquina[cont])
-    console.log(arrayMaquina[cont]); //SACARLO CUANDO LA TAREA ESTE LISTA
+    pulsarBoton(arrayMaquina[cont]);
+    console.log(arrayMaquina[cont]);
     cont++        
     
     timerId = setTimeout(maquina, 1000); 
@@ -137,13 +135,6 @@ let timerId = setTimeout(function maquina() {
         
     }, 2000);
     
-}
-
-
-//LOGICA DEL JUEGO:
-//Cuando le demos click a cualquier de los botones, cada boton tiene asignado un numero, por cada click se va a ejecutar ese boton y se va pushear
-//los valores por cada click, hacemos una comparacion de los dos arrays(que deben ser identicos), si los resultados 
-// no son iguales se pierde el juego. Si los resultados son iguales se ejecuta otra ronda
-//La maquina por cada ronda tiene que ejecutar LOS BOTONES ANTERIORES y UN SOLO BOTON NUEVO
+} 
 
  

@@ -26,8 +26,7 @@ p {
     width: 35%;
     height: 70vh;
     background-color: #222;
-    border: medium solid #000;
-    /* margin-top: 100px; */
+    border: medium solid #000; 
   }
 
   .grid {
